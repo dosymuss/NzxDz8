@@ -1,0 +1,32 @@
+.wrapper {
+    width: 100vw;
+    height: calc(100vh - 83.2px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textAndBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.btnDiv{
+    display: flex;
+    gap: 20px;
+}
+.button{
+    padding: 15px 35px;
+    background-color: darkgray;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

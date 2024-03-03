@@ -1,0 +1,27 @@
+.users {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
+  width: 300px;
+  background-color: darkgray;
+  border-radius: 20px;
+  font-weight: 700;
+  font-family: sans-serif;
+  gap: 20px;
+}
+.link{
+  color: white;
+  text-decoration: none;
+}

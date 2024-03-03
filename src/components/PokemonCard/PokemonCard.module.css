@@ -1,0 +1,28 @@
+.info {
+  width: 200px;
+  height: 250px;
+  border: 1px solid red;
+  padding: 20px;
+  background-color: darkgray;
+  border-radius: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text{
+  font-weight: 700;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: whitesmoke;
+}
+
+li img {
+  width: 120px;
+}
+.link{
+  color: whitesmoke;
+  text-decoration: none;
+  cursor: pointer;
+}
